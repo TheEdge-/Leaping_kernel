@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Path to build your kernel
-  k=~/kernel/442
+  k=~/Desktop/kernel
 # Directory for the any kernel updater
   t=$k/packages
 # Date to add to zip
@@ -27,7 +27,7 @@
   m=$k/out/$c/system/lib/modules
   z=$c-$today
 
-TOOLCHAIN=/home/forrest/kernel/arm-eabi-4.7/bin/arm-eabi-
+TOOLCHAIN=/home/TheEdge/Desktop/linaro/bin/arm-eabi-
 export ARCH=arm
 export SUBARCH=arm
 
