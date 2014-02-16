@@ -23,6 +23,8 @@ obj-$(CONFIG_CPU_FREQ_GOV_ABYSSPLUG)    += cpufreq_abyssplugv2.o
 obj-$(CONFIG_CPU_FREQ_GOV_SMARTASSH3)	+= cpufreq_smartassH3.o
 obj-$(CONFIG_CPU_FREQ_GOV_DARKNESS)     += cpufreq_darkness.o
 obj-$(CONFIG_CPU_FREQ_GOV_SavagedZen)   += cpufreq_savagedzen.o
+obj-$(CONFIG_CPU_FREQ_GOV_AGGRESSIVE)   += cpufreq_aggressive.o
+obj-$(CONFIG_CPU_FREQ_GOV_NIGHTMARE)    += cpufreq_nightmare.o
 
 
 # CPUfreq cross-arch helpers
