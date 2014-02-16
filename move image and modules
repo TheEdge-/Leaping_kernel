@@ -1,2 +1,0 @@
-cp arch/arm/boot/zImage ../Lunar_kk/packages
-find . -name "*.ko" -exec cp {} ../Lunar_kk/packages \;
