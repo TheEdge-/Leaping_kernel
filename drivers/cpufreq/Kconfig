@@ -210,14 +210,6 @@ config CPU_FREQ_DEFAULT_GOV_SavagedZen
 	help
 	  Use the CPUFreq governor 'SavagedZen' as default.
 
-config CPU_FREQ_DEFAULT_GOV_AGGRESSIVE
-	bool "aggressive"
-	select CPU_FREQ_GOV_AGGRESSIVE
-	help
-	A modified conservative governor.
-        This features earlysuspend, hotplugging,
-        and tweaks to make it more aggressive.
-
 config CPU_FREQ_DEFAULT_GOV_NIGHTMARE
 	bool "nightmare"
 	select CPU_FREQ_GOV_NIGHTMARE
@@ -486,14 +478,6 @@ config CPU_FREQ_GOV_SavagedZen
 
 config CPU_FREQ_GOV_DARKNESS
 	tristate "'darkness' cpufreq policy governor"
-
-config CPU_FREQ_DEFAULT_GOV_AGGRESSIVE
-	bool "aggressive"
-	select CPU_FREQ_GOV_AGGRESSIVE
-	help
-	A modified conservative governor.
-        This features earlysuspend, hotplugging,
-        and tweaks to make it more aggressive.
 
 config CPU_FREQ_GOV_NIGHTMARE
 	tristate "'nightmare' cpufreq governor"
